@@ -1,0 +1,162 @@
+.ant-page-header-footer {
+  margin-top: 5px;
+  max-width: 600px;
+  color: var(--grey);
+}
+
+.ant-menu {
+  border-right: 0;
+}
+
+.ant-layout {
+  background-color: #fff;
+
+  &-sider {
+    border-right: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: auto;
+    background-color: #fff;
+  }
+}
+
+.ant-space {
+  width: 100%;
+}
+.ant-page-header {
+  padding-right: 0;
+  padding-left: 0;
+}
+.ant-input {
+  background: transparent;
+}
+
+.ant-input-group {
+  display: flex !important;
+
+  .select {
+    width: fit-content;
+  }
+}
+
+span.ant-typography {
+  font-size: 14px;
+}
+
+.faint-text {
+  color: var(--grey);
+  font: 14px;
+}
+
+.ant-btn {
+  border-radius: 6px !important;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  margin-right: 20px;
+}
+
+.ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+
+  &::after {
+    transform: rotate(45deg) scale(1.2) translate(-50%, -50%) !important;
+    left: 5px;
+  }
+}
+
+.ant-radio-button-wrapper {
+  height: unset !important;
+}
+
+.ant-radio-button-wrapper {
+  line-height: 1 !important;
+  width: 100% !important;
+}
+
+.ant-radio-group-outline {
+  width: 100% !important;
+}
+
+.ant-layout-sider.ant-layout-sider-light {
+  max-width: 280px !important;
+  min-width: 280px !important;
+}
+
+.rounded {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ant-btn.ant-btn-default.ant-btn-background-ghost {
+  color: #a32a29 !important;
+  border: 1px solid #a32a29 !important;
+  background-color: #fff !important;
+}
+
+.base-select--pop-up {
+  display: block;
+  text-align: left;
+  width: 100%;
+  background: transparent;
+  border: 0;
+
+  .ant-select-selection-item {
+    color: #000;
+  }
+
+  .ant-select-selector {
+    &,
+    * {
+      cursor: pointer !important;
+    }
+  }
+}
+
+.base-input__date {
+  &.ant-picker:not(.ant-picker-disabled) {
+    background-color: transparent;
+  }
+}
+
+.ant-input-number {
+  width: 100%;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  background-color: transparent;
+  box-shadow: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.doc-modal {
+  width: 800px !important;
+}
+
+.doc-iframe-container {
+  overflow: hidden;
+  padding-bottom: 30px;
+
+  iframe {
+    transform: scale(1.24);
+  }
+}
+
+.login-banner-image {
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  height: 50vh;
+}
+
+.ant-input-number-disabled {
+  color: #000 !important;
+  background-color: rgba(212, 212, 212, 0.104);
+}

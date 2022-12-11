@@ -1,0 +1,39 @@
+.base-banner {
+  background: var(--primary);
+  background-image: linear-gradient(rgba(2, 2, 2, 0.266), rgba(0, 0, 0, 0.255)),
+    url("/assets/images/banner-bg.svg");
+  margin: 0 -34px;
+  padding: 0 34px;
+
+  .ant-page-header {
+    background-color: transparent !important;
+  }
+
+  .anticon {
+    color: #fff;
+  }
+
+  .ant-space {
+    width: 100%;
+    padding: 65px 0;
+    justify-content: center;
+    align-items: center;
+
+    * {
+      color: #fff;
+      margin: 0;
+    }
+  }
+}
+
+.test {
+  background-image: linear-gradient(rgba(2, 2, 2, 0.266), rgba(0, 0, 0, 0.255)),
+    url("/assets/images/bg.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
+.pointer {
+  cursor: pointer;
+}
