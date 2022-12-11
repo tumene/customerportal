@@ -40,13 +40,13 @@ export default function Login() {
             level={8}
             style={{ color: "#fff", fontSize: "50px" }}
           >
-            Welcome to <br /> Equity online
+            Welcome to <br /> Helder online
           </Typography.Title>
           <Typography.Text
             level={10}
             style={{ color: "rgb(255, 255, 255, 0.8)", fontSize: "20px" }}
           >
-            More than just banking
+            We delight our customers
           </Typography.Text>
         </Space>
 
